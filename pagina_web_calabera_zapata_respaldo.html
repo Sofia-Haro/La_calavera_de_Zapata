@@ -3,15 +3,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Calavera de Zapata - Catrinas de Barro Artesanales</title>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link href="estilos_calavera.css" rel="stylesheet">
-    <link href="funcionalidades.js" rel="stylesheet">
+    <link href="estilos_calavera_respaldo.css" rel="stylesheet">
+    <link href="funcionalidades_respaldo.js" rel="stylesheet">
 
 
 </head>
 <body>
-    <!-- PÉTALOS DE CEMPASÚCHIL -->
+<!-- PÉTALOS DE CEMPASÚCHIL - TODOS ANIMADOS Y BIEN POSICIONADOS -->
     <div class="petalos-container">
+        <!-- Fila superior -->
         <div class="petalo pequeno color1 petalo-1"></div>
         <div class="petalo mediano color2 petalo-2"></div>
         <div class="petalo pequeno color3 petalo-3"></div>
@@ -22,6 +22,8 @@
         <div class="petalo mediano color4 petalo-8"></div>
         <div class="petalo pequeno color1 petalo-9"></div>
         <div class="petalo mediano color2 petalo-10"></div>
+        
+        <!-- Fila inferior -->
         <div class="petalo pequeno color3 petalo-11"></div>
         <div class="petalo mediano color4 petalo-12"></div>
         <div class="petalo pequeno color1 petalo-13"></div>
@@ -29,6 +31,8 @@
         <div class="petalo pequeno color3 petalo-15"></div>
         <div class="petalo mediano color4 petalo-16"></div>
         <div class="petalo pequeno color1 petalo-17"></div>
+
+            <!-- Fila superior derecha -->
         <div class="petalo mediano color1 esquina petalo-37"></div>
         <div class="petalo pequeno color2 petalo-38"></div>
         <div class="petalo grande color3 esquina petalo-39"></div>
@@ -37,8 +41,8 @@
         <div class="petalo grande color2 esquina petalo-42"></div>
         <div class="petalo pequeno color3 petalo-43"></div>
         <div class="petalo mediano color4 esquina petalo-44"></div>
-    </div>
-
+        
+        </div>
     <!-- Header -->
     <header>
         <div class="logo">CZ</div>
@@ -62,70 +66,49 @@
     <!-- Inicio -->
     <section id="inicio">
         <div class="hero-content">
-            <h1 class="titulo-principal">La Calavera de Zapata</h1>
-            <h2 class="subtitulo-principal">Catrinas de barro con alma michoacana, pintadas con corazón jalisciense</h2>
-            <p class="descripcion-principal">Cada pieza es única, elaborada con técnicas ancestrales en Capula, Michoacán, y decorada a mano por artistas especializados en Guadalajara. Nuestras catrinas son más que arte: son tradición viva que honra el Día de Muertos.</p>
-            <a href="#galeria" class="btn-primary">Ver Nuestra Colección de Catrinas 💀</a>
+            <h1>La Calavera de Zapata</h1>
+            <h2>Catrinas de barro con alma michoacana, pintadas con corazón jalisciense</h2>
+            <p>Cada pieza es única, elaborada con técnicas ancestrales en Capula, Michoacán, y decorada a mano por artistas especializados en Guadalajara. Nuestras catrinas son más que arte: son tradición viva que honra el Día de Muertos.</p>
+            <a href="#galeria" class="btn-primary">Ver Catrinas 💀</a>
         </div>
         <div class="hero-image">
-            <img src="fotos/IMG_20230509_151420_307~2.jpg" alt="Catrina artesanal de barro pintada a mano"></div>
+            <div class="hero-image">
+            <img src="catrinas_de_barro.jpg" alt="Catrina artesanal de barro pintada a mano">
+            </div>
+        </div>
     </section>
 
-
     <!-- Nosotros -->
-<section id="nosotros">
-    <h2 class="section-title titulo-seccion">Nuestra Historia</h2>
-    <div class="nosotros-content">
-        <div class="nosotros-text">
-            <h3 class="subtitulo-seccion">Tradición y Arte Mexicano</h3>
-            <p>La Calavera de Zapata nace del profundo respeto por las tradiciones artesanales mexicanas. Nuestras catrinas son fabricadas con barro en Capula, Michoacán, un pueblo reconocido por su maestría alfarera que data de generaciones.</p>
-            <p>Cada pieza viaja hasta Guadalajara, donde artistas especializados las transforman en obras de arte únicas, pintadas a mano con colores vibrantes que celebran la vida y la muerte en perfecta armonía.</p>
-            <p>Somos el puente entre dos grandes tradiciones artesanales mexicanas, uniendo el modelado michoacano con el colorido tapatío para crear catrinas que cautivan corazones en todo el mundo.</p>
-            
-            <!-- Contador de imágenes -->
-            <div class="contador-galeria">
-                <span id="contadorActual">1</span> / <span id="contadorTotal">6</span>
+    <section id="nosotros">
+        <h2 class="section-title">Nuestra Historia</h2>
+        <div class="nosotros-content">
+            <div class="nosotros-text">
+                <h3>Tradición y Arte Mexicano</h3>
+                <p>La Calavera de Zapata nace del profundo respeto por las tradiciones artesanales mexicanas. Nuestras catrinas son fabricadas con barro en Capula, Michoacán, un pueblo reconocido por su maestría alfarera que data de generaciones.</p>
+                <p>Cada pieza viaja hasta Guadalajara, donde artistas especializados las transforman en obras de arte únicas, pintadas a mano con colores vibrantes que celebran la vida y la muerte en perfecta armonía.</p>
+                <p>Somos el puente entre dos grandes tradiciones artesanales mexicanas, uniendo el modelado michoacano con el colorido tapatío para crear catrinas que cautivan corazones en todo el mundo.</p>
+            </div>
+            <div class="historia-image">
+                <img src="muchas_catrinas.jpg" alt="Catrinas sin pintar">
+            </div>
+        <div class="valores">
+            <div class="valor-card">
+                <div class="icon">🏺</div>
+                <h4>Tradición</h4>
+                <p>Técnicas ancestrales transmitidas de generación en generación</p>
+            </div>
+            <div class="valor-card">
+                <div class="icon">✋</div>
+                <h4>Artesanía</h4>
+                <p>100% hecho a mano con dedicación y pasión</p>
+            </div>
+            <div class="valor-card">
+                <div class="icon">⭐</div>
+                <h4>Calidad</h4>
+                <p>Cada pieza es única y cuidadosamente elaborada</p>
             </div>
         </div>
-        
-        <!-- NUEVA GALERÍA DE CARRUSEL AUTOMÁTICO/MANUAL -->
-        <div class="historia-gallery">
-            <div class="gallery-container">
-                <!-- Carrusel principal -->
-                <div class="gallery-carousel">
-                    <div id="historiaSlides" class="gallery-slides"></div>
-                    
-                    <!-- Indicadores -->
-                    <div class="gallery-indicators" id="historiaIndicators"></div>
-                </div>
-                
-                <!-- Descripción de la imagen actual -->
-                <div class="gallery-caption" id="historiaCaption">
-                    <p>Artisanos de Capula trabajando el barro con técnicas ancestrales</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Valores (se mantiene igual) -->
-    <div class="valores">
-        <div class="valor-card">
-            <div class="icon">🏺</div>
-            <h4>Artesanía Tradicional</h4>
-            <p>Técnicas ancestrales transmitidas de generación en generación</p>
-        </div>
-        <div class="valor-card">
-            <div class="icon">✋</div>
-            <h4>Hecho a Mano</h4>
-            <p>Cada pieza es única, elaborada con dedicación y pasión</p>
-        </div>
-        <div class="valor-card">
-            <div class="icon">⭐</div>
-            <h4>Calidad Garantizada</h4>
-            <p>Máxima atención al detalle en cada creación</p>
-        </div>
-    </div>
-</section>
+    </section>
 
     <!-- Exposiciones -->
     <section id="expos">
@@ -159,95 +142,120 @@
     </section>
 
     <!-- Galería -->
-    <section id="galeria">
+        <section id="galeria">
         <h2 class="section-title">Galería de Catrinas</h2>
         <div class="galeria-grid">
-
-            <!-- Catrina Criolla -->
+            <!-- Catrina Clásica -->
             <div class="galeria-item" data-category="clasica" onclick="openModal('clasica')">
-                <img src="fotos/rebozo y platon_definitivo.jpg" alt="Catrina criolla" class="portada-catrina_criolla">
-                <div class="item-title">Catrina Criolla</div>
+                <div class="icon">💀</div>
+                <div class="item-title">Catrina Clásica</div>
             </div>
 
             <!-- Catrina Floral -->
             <div class="galeria-item" data-category="floral" onclick="openModal('floral')">
-                <img src="fotos/catrina_floral_portada.jpg" alt="Catrina Floral" class="portada-catrina_floral">
+                <div class="icon">🌸</div>
                 <div class="item-title">Catrina Floral</div>
             </div>
 
-            <!-- Catrina Elegante -->
-            <div class="galeria-item" data-category="elegante" onclick="openModal('elegante')">
-                <img src="fotos/rebozo y platon_definitivo.jpg" alt="Catrina elegante" class="portada-catrina_criolla">
+        <!-- Catrina Elegante 
+                (Catrin)      -->
+            <div class="galeria-item" data-category="Catrina Elegante" onclick="openModal('Catrin')">
+                <div class="icon">👒</div>
                 <div class="item-title">Catrina Elegante</div>
             </div>
 
-            <!-- Barro natural -->
+            <!-- Tradicional
+                (Barro Natural) -->
             <div class="galeria-item" data-category="tradicional" onclick="openModal('tradicional')">
-                <img src="fotos/corona_rosas_portada.jpg" alt="Catrina barro natural" class="portada-catrina_barro">
+                <div class="icon">🎭</div>
                 <div class="item-title">Barro Natural</div>
             </div>
 
-            <!-- Masccotas -->
-            <div class="galeria-item" data-category="mascotas" onclick="openModal('mascotas')">
-                <img src="fotos/burrito_portada.jpg" alt="Catrina mascotas" class="portada-catrina_criolla">
+            <!-- Mascotas -->
+            <div class="galeria-item" data-category="Mascotas" onclick="openModal('Mascotas')">
+                <div class="icon">✨</div>
                 <div class="item-title">Mascotas</div>
             </div>
 
             <!-- Catrina Personalizada -->
             <div class="galeria-item" data-category="personalizada" onclick="openModal('personalizada')">
-                <img src="fotos/doctora_portada.jpg" alt="Catrina personalizada" class="portada-catrina_criolla">
+                <div class="icon">🎨</div>
                 <div class="item-title">Catrina Personalizada</div>
             </div>
-        
+
             <!-- Parejas -->
-            <div class="galeria-item" data-category="parejas" onclick="openModal('parejas')">
-                <img src="fotos/galleros pareja_portada.jpg" alt="Parejas" class="portada-catrina_criolla">
+            <div class="galeria-item" data-category="Parejas" onclick="openModal('Parejas')">
+                <div class="icon">👑</div>
                 <div class="item-title">Parejas</div>
             </div>
 
-            <!-- Catrín -->
+            <!-- Moderna -->
             <div class="galeria-item" data-category="moderna" onclick="openModal('moderna')">
-                <img src="fotos/catrin_portada.jpg" alt="Catrina Clásica" class="portada-catrina_criolla">
-                <div class="item-title">Catrín</div>
+                <div class="icon">⭐</div>
+                <div class="item-title">Catrina Moderna</div>
             </div>
-        </div>
-    </section>
 
-    <!-- Modal del carrusel -->
-    <div class="modal-overlay" id="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2 class="modal-title" id="modalTitle">Catrina Clásica</h2>
-                <button class="close-modal" onclick="closeModal()">&times;</button>
-            </div>
-            <div class="modal-body">
+    </div>
+</section>
+
+        <!-- Modal del carrusel -->
+        <div class="modal-overlay" id="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="modalTitle">Catrina Clásica</h2>
+                    <button class="close-modal" onclick="closeModal()">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                <!-- Carrusel de imágenes -->
                 <div class="carousel-container">
-                    <div id="carouselSlides"></div>
+                    <div class="carousel-slide active" id="slide-0">
+                        <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Catrina 1" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide" id="slide-1">
+                        <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Catrina 2" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide" id="slide-2">
+                        <img src="https://images.unsplash.com/photo-1543857778-c4a1a569e388?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Catrina 3" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide" id="slide-3">
+                        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Catrina 4" class="carousel-image">
+                    </div>
+
                     <div class="carousel-nav">
                         <button class="carousel-btn prev-btn" onclick="prevSlide()">❮</button>
                         <button class="carousel-btn next-btn" onclick="nextSlide()">❯</button>
                     </div>
-                    <div class="carousel-dots" id="carouselDots"></div>
+                    
+                    <div class="carousel-dots" id="carouselDots">
+                        <!-- Los dots se generan dinámicamente -->
+                    </div>
                 </div>
+                
+                <!-- Información de la pieza -->
                 <div class="piece-info">
-                    <h3 id="pieceTitle">Catrina Clásica</h3>
-                    <div class="piece-description" id="pieceDescription"></div>
+                    <h3 id="pieceTitle">Catrina Clásica Tradicional</h3>
+                    
+                    <div class="piece-description" id="pieceDescription">
+                        Esta catrina clásica representa la tradición mexicana en su máxima expresión. Elaborada con barro de Capula y pintada a mano en Guadalajara, cada detalle ha sido cuidadosamente trabajado por artesanos expertos.
+                    </div>
+
                     <div class="piece-details">
                         <div class="detail-item">
                             <span class="detail-label">Material:</span>
-                            <span class="detail-value" id="pieceMaterial"></span>
+                            <span class="detail-value" id="pieceMaterial">Barro artesanal</span>
                         </div>
                         <div class="detail-item">
                             <span class="detail-label">Altura:</span>
-                            <span class="detail-value" id="pieceHeight"></span>
+                            <span class="detail-value" id="pieceHeight">35 cm</span>
                         </div>
                         <div class="detail-item">
                             <span class="detail-label">Técnica:</span>
-                            <span class="detail-value" id="pieceTechnique"></span>
+                            <span class="detail-value" id="pieceTechnique">Pintura a mano</span>
                         </div>
                         <div class="detail-item">
                             <span class="detail-label">Origen:</span>
-                            <span class="detail-value" id="pieceOrigin"></span>
+                            <span class="detail-value" id="pieceOrigin">Capula, Michoacán</span>
                         </div>
                         <div class="detail-item">
                             <span class="detail-label">Disponibilidad:</span>
@@ -256,16 +264,33 @@
                             </span>
                         </div>
                     </div>
-                    <div class="price" id="piecePrice"></div>
+                    
+                    <div class="price" id="piecePrice">$1,850 MXN</div>
                 </div>
             </div>
         </div>
     </div>
-
+    
     <!-- Contacto -->
-    <section id="contacto">
+        <section id="contacto">
         <h2 class="section-title">Contáctanos</h2>
         <div class="contacto-container">
+            <!--<form>
+                <div class="form-group">
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Tu nombre completo" required>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="tu@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label>Mensaje</label>
+                    <textarea placeholder="Cuéntanos sobre tu interés en nuestras catrinas..." required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Enviar Mensaje 📧</button>
+            </form> -->
+
             <div class="info-contacto">
                 <h3>Información de Contacto</h3>
                 <div class="info-item">
@@ -342,7 +367,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
+        <!-- Footer -->
     <footer>
         <div class="footer-content">
             <div class="footer-section">
