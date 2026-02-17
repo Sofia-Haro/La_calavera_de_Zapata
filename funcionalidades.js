@@ -101,7 +101,7 @@ const catrinasData = {
         ]
     },
     clasica: {
-        title: "Catrina Clasica",
+        title: "Catrina Clásica",
         slides: [
             {
                 image: "fotos/clasica1.png",
@@ -135,7 +135,7 @@ const catrinasData = {
             },
             {
                 image: "fotos/clasica4.png",
-                description: "Clasicas catrinas de vestido largo y sombrero.",
+                description: "Clasicás catrinas de vestido largo y sombrero.",
                 material: "Barro artesanal de Capula",
                 height: "30 cm",
                 technique: "Pintura a mano con acrílicos",
@@ -295,7 +295,7 @@ const catrinasData = {
             },
             {
                 image: "fotos/pareja3.jpg",
-                description: "Pareja de catrinas clasicas, Ambas decoradas con flores de de colores en tonos complementarios.",
+                description: "Pareja de catrinas clásicas, Ambas decoradas con flores de de colores en tonos complementarios.",
                 material: "Barro artesanal de Capula",
                 height: "36 cm cada una",
                 technique: "Pintura a mano con acrílicos",
