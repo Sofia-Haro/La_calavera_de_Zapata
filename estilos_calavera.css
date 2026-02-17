@@ -176,22 +176,23 @@ header {
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
-    background: linear-gradient(135deg, var(--morado), var(--rosa));
+    width: 80px;
+    height: 80px;
+    background: var(--blanco);  /* Fondo blanco puro */
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'CursivaTitulos', cursive;
     font-size: 1.3rem;
-    color: var(--blanco);
-    border: 2px solid var(--amarillo);
+    color: var(--negro);  /* Texto negro para contraste */
+    border: 2px solid var(--negro);  /* Borde negro */
     transition: all 0.3s ease;
 }
 
 .logo:hover {
     transform: rotate(360deg);
+    background: var(--blanco);  /* Mantener blanco al hacer hover */
 }
 
 nav ul {

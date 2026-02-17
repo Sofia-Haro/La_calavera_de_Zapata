@@ -1,47 +1,47 @@
 // Datos completos de todas las catrinas - CADA IMAGEN TIENE SU PROPIA INFORMACIÓN
 const catrinasData = {
-    clasica: {
-        title: "Catrina Clásica",
+    criolla: {
+        title: "Catrina Criolla",
         slides: [
             {
-                image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Catrina clásica tradicional con vestido rojo y flores. Elaborada completamente a mano con técnicas ancestrales en Capula, Michoacán.",
+                image: "fotos/catrina_criolla1.png",
+                description: "Catrina criolla con vestido colorido con flores de cempasúchil, acompañada de una canasta. Elaborada completamente a mano con técnicas propias de Capula, Michoacán.",
+                material: "Barro artesanal de Capula",
+                height: "40 cm",
+                technique: "Pintura a mano con acrílicos",
+                origin: "Capula, Michoacán",
+                available: true,
+                price: "$2,000 MXN"
+            },
+            {
+                image: "fotos/catrina_criolla2.png",
+                description: "Catrina criolla peinada con trenzas, accesorios dorados, rebozo azul, con una olla de barro en su hombro y flores de colores en la parte inferior.",
                 material: "Barro artesanal de Capula",
                 height: "35 cm",
                 technique: "Pintura a mano con acrílicos",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: "$1,850 MXN"
+                price: "$1,400 MXN"
             },
             {
-                image: "https://images.unsplash.com/photo-1576086213369-97a306d36557?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Catrina clásica con detalles dorados y sombrero elegante. Pintura meticulosa que resalta cada detalle del traje tradicional.",
-                material: "Barro fino con acabado brillante",
-                height: "40 cm",
-                technique: "Pintura con detalles en oro",
-                origin: "Guadalajara, Jalisco",
+                image: "fotos/catrina_criolla3.png",
+                description: "Catrina criolla con dos trenzas, vestido floral y acabados dorados.",
+                material: "Barro artesanal de Capula",
+                height: "30 cm",
+                technique: "Pintura a mano con acrílicos",
+                origin: "Capula, Michoacán",
                 available: true,
-                price: "$2,100 MXN"
+                price: "$1,200 MXN"
             },
             {
-                image: "https://images.unsplash.com/photo-1543857778-c4a1a569e388?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Elegante catrina clásica con vestido negro y rosas rojas. Pieza de colección con acabados de lujo y esmaltes especiales.",
-                material: "Barro con esmalte cerámico",
-                height: "38 cm",
-                technique: "Técnica mixta con esmaltes",
-                origin: "Capula y Guadalajara",
-                available: false,
-                price: "$2,300 MXN"
-            },
-            {
-                image: "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Catrina clásica con sombrero de ala ancha decorado con flores de cempasúchil. Edición especial para coleccionistas.",
-                material: "Barro artesanal premium",
-                height: "42 cm",
+                image: "fotos/catrina_criolla4.png",
+                description: "Catrina con reboso azul, vestido colorido floreado, con cantaro y plato en mano.",
+                material: "Barro artesanal",
+                height: "40 cm",
                 technique: "Pintura detallada a mano",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: "$2,500 MXN"
+                price: "$1,800 MXN"
             }
         ]
     },
@@ -49,89 +49,99 @@ const catrinasData = {
         title: "Catrina Floral",
         slides: [
             {
-                image: "https://images.unsplash.com/photo-1578947973063-6f40f8c5a3c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Catrina decorada con flores de cempasúchil y rosas. Los colores vibrantes simbolizan la vida y la muerte en perfecta armonía.",
-                material: "Barro con detalles florales",
-                height: "36 cm",
+                image: "fotos/catrina_floral1.png",
+                description: "Catrina decorada con flores y mariposas de siferentes colores, detalles en dorado y cantaro en mano. Los colores vibrantes simbolizan la vida y la muerte en perfecta armonía.",
+                material: "Barro artesanal de Capula",
+                height: "35 cm",
                 technique: "Pintura a mano con acrílicos",
-                origin: "Guadalajara, Jalisco",
-                available: true,
-                price: "$2,000 MXN"
-            },
-            {
-                image: "https://images.unsplash.com/photo-1542643397-662e64e6d6a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Hermosa catrina con corona de flores multicolores. Cada flor pintada individualmente con precisión milimétrica.",
-                material: "Barro fino artesanal",
-                height: "38 cm",
-                technique: "Técnica de pincel fino",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: "$2,200 MXN"
+                price: "$1,600 MXN"
             },
             {
-                image: "https://images.unsplash.com/photo-1547407139-3c921a66005c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Catrina floral con vestido estampado de rosas. Diseño único que combina tradición y elegancia en cada pincelada.",
-                material: "Barro con acabado mate",
-                height: "40 cm",
-                technique: "Pintura decorativa floral",
-                origin: "Guadalajara, Jalisco",
+                image: "fotos/catrina_floral2.png",
+                description: "Hermosa catrina con hupil de ajolote pintado detalladamente, con una falda de girasoles y cigarro en mano.",
+                material: "Barro fino artesanal",
+                height: "20 cm",
+                technique: "Pintura a mano con acrílicos",
+                origin: "Capula, Michoacán",
                 available: true,
-                price: "$2,400 MXN"
+                price: "$1,200 MXN"
             },
             {
-                image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Espectacular catrina con jardín de flores en su vestido. Pieza de exhibición con más de 50 horas de trabajo artesanal.",
-                material: "Barro premium con esmaltes",
-                height: "45 cm",
+                image: "fotos/catrina_floral3.png",
+                description: "Catrina floral con falda estampada de flores y mariposas de colores, con huipil florar pintado a mano, con un tocado de calas en su cabeza.",
+                material: "Barro artesanal de Capula",
+                height: "35 cm",
+                technique: "Pintura decorativa floral",
+                origin: "Capula, Michoacán",
+                available: true,
+                price: "$1,400 MXN"
+            },
+            {
+                image: "fotos/catrina_floral4.png",
+                description: "Espectacular catrina con jardín de flores en su vestido, tocado floral en su cabeza y falda pintada detalladamente.",
+                material: "Barro artesanal de Capula",
+                height: "22 cm",
                 technique: "Pintura artística detallada",
-                origin: "Colaboración Capula-Guadalajara",
+                origin: "Capula, Michoacán",
                 available: false,
-                price: "$3,200 MXN"
+                price: "$1,200 MXN"
+            },
+            {
+                image: "fotos/catrina_floral5.png",
+                description: "Espectacular catrina con rebozo, trenzas y flores azules en su cabeza, flores coloridas en su vestido, cargando una corona de flores.",
+                material: "Barro artesanal de Capula",
+                height: "40 cm",
+                technique: "Pintura artística detallada",
+                origin: "Capula, Michoacán",
+                available: false,
+                price: "$2,200 MXN"
             }
         ]
     },
-    elegante: {
-        title: "Catrina Elegante",
+    clasica: {
+        title: "Catrina Clasica",
         slides: [
             {
-                image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Elegante catrina con traje de gala y sombrero decorado con plumas. Perfecta para coleccionistas exigentes.",
-                material: "Barro fino con detalles en oro",
-                height: "45 cm",
-                technique: "Técnica mixta con dorados",
-                origin: "Capula y Guadalajara",
-                available: false,
-                price: "$3,500 MXN"
-            },
-            {
-                image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Catrina elegante con vestido de terciopelo pintado. Acabados de lujo y detalles meticulosos.",
-                material: "Barro premium con acabados especiales",
-                height: "42 cm",
-                technique: "Pintura con texturas",
-                origin: "Guadalajara, Jalisco",
+                image: "fotos/clasica1.png",
+                description: "Catrina con coloridas plumas de pavoreal con elegantes flores en el vestido y sombrero blanco decorado con plumas.",
+                material: "Barro artesanal de Capula",
+                height: "40 cm",
+                technique: "Pintura a mano con acrílicos",
+                origin: "Capula, Michoacán",
                 available: true,
-                price: "$3,200 MXN"
+                price: "$1,800 MXN"
             },
             {
-                image: "https://images.unsplash.com/photo-1578947973063-6f40f8c5a3c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Catrina de alta costura con sombrero de copa. Diseño exclusivo para eventos especiales.",
-                material: "Barro con incrustaciones",
-                height: "48 cm",
-                technique: "Técnicas avanzadas de pintura",
-                origin: "Talleres especializados",
+                image: "fotos/clasica2.png",
+                description: "Elegantes catrinas coloridas con plumas y detalles florales en vestido y sombrero.",
+                material: "Barro artesanal de Capula",
+                height: "40 cm",
+                technique: "Pintura a mano con acrílicos",
+                origin: "Capula, Michoacán",
                 available: true,
-                price: "$3,800 MXN"
+                price: "$1,800 MXN"
             },
             {
-                image: "https://images.unsplash.com/photo-1547407139-3c921a66005c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Catrina aristocrática con bastón y joyas pintadas. Edición limitada de alta gama.",
-                material: "Barro con detalles en plata",
-                height: "50 cm",
-                technique: "Artesanía de lujo",
-                origin: "Capula y talleres de joyería",
-                available: false,
-                price: "$4,500 MXN"
+                image: "fotos/clasica3.png",
+                description: "Elegante catrina de vestido largo con plumas de pavoreal, hombro descubierto, combrilla y hermoso sombrero con plumas.",
+                material: "Barro artesanal de Capula",
+                height: "40 cm",
+                technique: "Pintura a mano con acrílicos",
+                origin: "Capula, Michoacán",
+                available: true,
+                price: "$1,800 MXN"
+            },
+            {
+                image: "fotos/clasica4.png",
+                description: "Clasicas catrinas de vestido largo y sombrero.",
+                material: "Barro artesanal de Capula",
+                height: "30 cm",
+                technique: "Pintura a mano con acrílicos",
+                origin: "Capula, Michoacán",
+                available: true,
+                price: "$1,400 MXN"
             }
         ]
     },
@@ -139,44 +149,44 @@ const catrinasData = {
         title: "Barro Natural",
         slides: [
             {
-                image: "https://images.unsplash.com/photo-1542643397-662e64e6d6a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                image: "fotos/natural1.jpg",
                 description: "Catrina de barro natural sin pintura. Muestra la belleza cruda del material y las técnicas ancestrales de Capula.",
                 material: "Barro natural sin pintar",
                 height: "30 cm",
                 technique: "Modelado tradicional",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: "$900 MXN"
+                price: "$600 - $900 MXN"
             },
             {
-                image: "https://images.unsplash.com/photo-1547407139-3c921a66005c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Barro rojo natural con texturas artesanales. Cada marca cuenta una historia del proceso de creación tradicional.",
+                image: "fotos/natural2.jpg",
+                description: "Catrinas de barro rojo natural con texturas artesanales. Cada marca cuenta una historia del proceso de creación tradicional.",
                 material: "Barro rojo natural",
-                height: "32 cm",
+                height: "32 - 40 cm",
                 technique: "Cocción en horno de leña",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: "$950 MXN"
+                price: "$600 - $900 MXN"
             },
             {
-                image: "https://images.unsplash.com/photo-1576086213369-97a306d36557?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Catrina con textura porosa natural. Ideal para amantes de la artesanía en su forma más pura y auténtica.",
-                material: "Barro con textura natural",
-                height: "28 cm",
-                technique: "Técnica de pellizco tradicional",
+                image: "fotos/natural3.jpg",
+                description: "Corazón de barro floral, con flores incrustadas individualmente.",
+                material: "Barro con barniz",
+                height: "25 - 40 cm",
+                technique: "Modelado tradicional",
                 origin: "Capula, Michoacán",
                 available: true,
                 price: "$850 MXN"
             },
             {
-                image: "https://images.unsplash.com/photo-1543857778-c4a1a569e388?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Barro negro natural pulido. Acabado minimalista que resalta la elegancia natural del material.",
+                image: "fotos/AZTECA NATURAL.jpg",
+                description: "Catrin azteca debarro natural.",
                 material: "Barro negro natural",
-                height: "35 cm",
-                technique: "Pulido manual con piedra",
+                height: "20 - 35 cm",
+                technique: "Modelado tradicional",
                 origin: "Capula, Michoacán",
-                available: false,
-                price: "$1,100 MXN"
+                available: true,
+                price: "$600 - $900 MXN"
             }
         ]
     },
@@ -184,44 +194,34 @@ const catrinasData = {
         title: "Mascotas",
         slides: [
             {
-                image: "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Catrina Xoloitzcuintle (perro azteca). Homenaje a las mascotas que nos acompañan en vida y muerte.",
-                material: "Barro artesanal pintado",
-                height: "25 cm",
+                image: "fotos/mascota1.png",
+                description: "Catrina de perro personalizado. Homenaje a las mascotas que nos acompañaron en la vida y hoy en dia ya noestán con nosotros.",
+                material: "Barro artesanal de Capula",
+                height: "22 cm",
                 technique: "Pintura a mano",
                 origin: "Capula, Michoacán",
                 available: true,
                 price: "$1,200 MXN"
             },
             {
-                image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Gato catrina con flores. Perfecto para amantes de los felinos y la cultura mexicana.",
-                material: "Barro fino con detalles",
-                height: "20 cm",
+                image: "fotos/mascota2.png",
+                description: "Ajolote catrina. Representando la conexión entre el mundo terrenal y espiritual.",
+                material: "Barro artesanal de Capula",
+                height: "27 cm",
                 technique: "Pintura detallada",
-                origin: "Guadalajara, Jalisco",
+                origin: "Capula, Michoacán",
                 available: true,
-                price: "$1,000 MXN"
+                price: "$1,200 MXN"
             },
             {
-                image: "https://images.unsplash.com/photo-1578947973063-6f40f8c5a3c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Perro catrina con sombrero. Alegre representación de nuestros fieles compañeros caninos.",
-                material: "Barro artesanal",
-                height: "22 cm",
+                image: "fotos/mascota3.png",
+                description: "Perro catrina. Alegre representación de nuestros fieles compañeros caninos.",
+                material: "Barro artesanal de Capula",
+                height: "15 cm",
                 technique: "Pintura colorida",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: "$1,100 MXN"
-            },
-            {
-                image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Pareja de mascotas catrinas. Set especial para recordar a dos compañeros inseparables.",
-                material: "Barro premium (2 piezas)",
-                height: "18 cm cada una",
-                technique: "Pintura coordinada",
-                origin: "Capula y Guadalajara",
-                available: true,
-                price: "$2,000 MXN"
+                price: "$1,000 MXN"
             }
         ]
     },
@@ -229,44 +229,44 @@ const catrinasData = {
         title: "Catrina Personalizada",
         slides: [
             {
-                image: "https://images.unsplash.com/photo-1547407139-3c921a66005c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Diseño 100% personalizado según tus especificaciones. Colores, tamaño y detalles a elección del cliente.",
-                material: "A elección del cliente",
-                height: "Variable (25-50 cm)",
+                image: "fotos/personalizado1.png",
+                description: "Catrina con profesion de doctora. Colores, tamaño y detalles a elección del cliente.",
+                material: "Barro artesanal de Capula",
+                height: "30cm",
                 technique: "Personalizada",
-                origin: "Capula y Guadalajara",
+                origin: "Capula, Michoacán",
                 available: true,
-                price: "Desde $3,000 MXN"
+                price: "Desde $1,300 MXN"
             },
             {
-                image: "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Catrina con profesión específica. Ideal para regalar a médicos, maestros, artistas, etc.",
-                material: "Barro fino personalizado",
-                height: "35-40 cm",
-                technique: "Técnica especializada",
-                origin: "Talleres de Guadalajara",
+                image: "fotos/personalizado2.png",
+                description: "Catrina con profesión deprofesor. Ideal para regalar.",
+                material: "Barro artesanal de Capula",
+                height: "30 cm",
+                technique: "Pintura a mano con acrílicos",
+                origin: "Capula, Michoacán",
                 available: true,
-                price: "Desde $3,500 MXN"
+                price: "Desde $1,300 MXN"
             },
             {
-                image: "https://images.unsplash.com/photo-1543857778-c4a1a569e388?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Retrato catrina personalizado. Capturamos rasgos y estilo de la persona homenajeada.",
-                material: "Barro premium",
-                height: "40-45 cm",
+                image: "fotos/personalizado3.png",
+                description: "Retrato catrina personalizado de doctor, modelado a mano.",
+                material: "Barro artesanal de Capula",
+                height: "23 cm",
                 technique: "Escultura personalizada",
-                origin: "Artistas especializados",
+                origin: "Capula, Michoacán",
                 available: true,
-                price: "Desde $4,500 MXN"
+                price: " Desde $500 MXN"
             },
             {
-                image: "https://images.unsplash.com/photo-1578947973063-6f40f8c5a3c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Catrina con temática especial. Deportes, hobbies, pasiones - cualquier tema que imagines.",
-                material: "Barro artesanal",
+                image: "fotos/personalizado4.png",
+                description: "Catrina con temática especial de cura y campesino.",
+                material: "Barro artesanal de Capula",
                 height: "Variable",
                 technique: "Creación única",
-                origin: "Capula y Guadalajara",
+                origin: "Capula, Michoacán",
                 available: true,
-                price: "Desde $3,200 MXN"
+                price: "Desde $1,500 MXN"
             }
         ]
     },
@@ -274,89 +274,99 @@ const catrinasData = {
         title: "Parejas de Catrinas",
         slides: [
             {
-                image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Pareja de catrinas tradicionales. Catrina y catrín en vestimenta clásica mexicana. Set romántico.",
-                material: "Barro artesanal (2 piezas)",
-                height: "35 cm cada una",
-                technique: "Pintura coordinada",
+                image: "fotos/pareja1.png",
+                description: "Pareja de Zapatas. Catrina y catrín en vestimenta clásica mexicana, vestidos con sombrero y escopeta.",
+                material: "Barro artesanal de Capula",
+                height: "60 cm cada una",
+                technique: "Pintura a mano con acrílicos",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: "$3,500 MXN"
+                price: "$12,000 MXN"
             },
             {
-                image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Pareja de catrinas modernas. Diseño contemporáneo que mantiene la esencia tradicional mexicana.",
-                material: "Barro fino (2 piezas)",
-                height: "38 cm cada una",
-                technique: "Estilo moderno",
-                origin: "Guadalajara, Jalisco",
+                image: "fotos/pareja2.jpg",
+                description: "Pareja de galleros. De vestimenta colorida, con gallos en mano que mantiene la esencia tradicional mexicana.",
+                material: "Barro artesanal de Capula",
+                height: "38 cm - 50 cm cada una",
+                technique: "Pintura a mano con acrílicos",
+                origin: "Capula, Michoacán",
                 available: true,
-                price: "$3,800 MXN"
+                price: "$6,000 - 10,000 MXN"
             },
             {
-                image: "https://images.unsplash.com/photo-1578947973063-6f40f8c5a3c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Pareja de catrinas florales. Ambas decoradas con flores de cempasúchil en tonos complementarios.",
-                material: "Barro con detalles florales (2 piezas)",
+                image: "fotos/pareja3.jpg",
+                description: "Pareja de catrinas clasicas, Ambas decoradas con flores de de colores en tonos complementarios.",
+                material: "Barro artesanal de Capula",
                 height: "36 cm cada una",
-                technique: "Pintura floral detallada",
-                origin: "Capula y Guadalajara",
+                technique: "Pintura a mano con acrílicos",
+                origin: "Capula, Michoacán",
                 available: true,
-                price: "$4,000 MXN"
+                price: "$4,000 - $6,000 MXN"
             },
             {
-                image: "https://images.unsplash.com/photo-1547407139-3c921a66005c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Pareja de catrinas elegantes de lujo. Edición limitada con detalles en oro y plata.",
-                material: "Barro premium con metales (2 piezas)",
-                height: "42 cm cada una",
-                technique: "Artesanía de excelencia",
-                origin: "Talleres especializados",
-                available: false,
-                price: "$6,500 MXN"
+                image: "fotos/pareja4.jpg",
+                description: "Pareja de catrinas criollas. En colores vibrantes con detalles en dorado.",
+                material: "Barro artesanal de Capula",
+                height: "36 cm cada una",
+                technique: "Pintura a mano con acrílicos",
+                origin: "Capula, Michoacán",
+                available: true,
+                price: "$4,000 - $6,000 MXN"
             }
         ]
     },
     moderna: {
-        title: "Catrina Moderna",
+        title: "Catrín",
         slides: [
             {
-                image: "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Reinterpretación contemporánea de la catrina tradicional. Líneas limpias, colores modernos y diseño vanguardista.",
-                material: "Barro y resina",
-                height: "38 cm",
-                technique: "Técnica mixta digital y manual",
-                origin: "Guadalajara, Jalisco",
-                available: true,
-                price: "$2,800 MXN"
-            },
-            {
-                image: "https://images.unsplash.com/photo-1578947973063-6f40f8c5a3c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Diseño geométrico y abstracto que reinterpreta los símbolos tradicionales del Día de Muertos.",
-                material: "Barro con acabado metálico",
+                image: "fotos/catrin1.png",
+                description: "Catrin mezcalero pintado en tonos tierra.",
+                material: "Barro artesanal de Capula",
                 height: "40 cm",
-                technique: "Impresión 3D y acabado manual",
-                origin: "Guadalajara, Jalisco",
+                technique: "Pintura a mano con acrílicos",
+                origin: "Capula, Michoacán",
                 available: true,
-                price: "$3,000 MXN"
+                price: "$1,000 MXN"
             },
             {
-                image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Fusión de técnicas tradicionales con materiales modernos. Los colores neón contrastan con la base de barro tradicional.",
-                material: "Barro con pigmentos fluorescentes",
-                height: "36 cm",
-                technique: "Aerografía y pintura acrílica",
-                origin: "Guadalajara, Jalisco",
+                image: "fotos/catrin2.png",
+                description: "Catrin tradicional vestido de esmoquin negro con un cigarro en mano.",
+                material: "Barro artesanal de Capula",
+                height: "30 cm",
+                technique: "Pintura a mano con acrílicos",
+                origin: "Capula, Michoacán",
                 available: true,
-                price: "$2,600 MXN"
+                price: "$1,200 MXN"
             },
             {
-                image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                description: "Catrina minimalista con líneas limpias y paleta de colores restringida. Una pieza para espacios de diseño contemporáneo.",
-                material: "Barro blanco y acero",
+                image: "fotos/catrin3.png",
+                description: "Catrin tradicional vestido de esmoquin con detalles dorados y pipa.",
+                material: "Barro artesanal de Capula",
+                height: "30 cm",
+                technique: "Pintura a mano con acrílicos",
+                origin: "Capula, Michoacán",
+                available: true,
+                price: "$1,200 MXN"
+            },
+            {
+                image: "fotos/catrin4.png",
+                description: "Catrin ranchero con barbay sombrero.",
+                material: "Barro artesanal de Capula",
                 height: "42 cm",
-                technique: "Escultura moderna con ensamblaje",
-                origin: "Guadalajara, Jalisco",
+                technique: "Pintura a mano con acrílicos",
+                origin: "Capula, Michoacán",
                 available: true,
                 price: "$3,400 MXN"
+            },
+            {
+                image: "fotos/catrin6.png",
+                description: "Catrin modelado a mano en colores calidos, acompañado de un craneo tinto floral.",
+                material: "Barro artesanal de Capula",
+                height: "20 cm",
+                technique: "Pintura a mano con acrílicos",
+                origin: "Capula, Michoacán",
+                available: true,
+                price: "$1,000 MXN"
             }
         ]
     }
