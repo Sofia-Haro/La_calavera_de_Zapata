@@ -1,49 +1,44 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Calavera de Zapata - Catrinas de Barro Artesanales</title>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <meta http-equiv="content-language" content="es">
+    <meta name="description"
+        content="Catrinas artesanales de barro creadas en Capula, Michoacán. Piezas únicas pintadas a mano. Clásicas, florales, criollas y diseños personalizados. Artesanias mexicanas, Tonalá, Jalisco">
+    <meta name="keywords"
+        content="catrinas de barro, catrinas artesanales, La Calavera de Zapata, artesanías mexicanas, catrinas de Capula, catrinas pintadas a mano, Día de Muertos, catrinas personalizadas, figuras de barro, arte popular mexicano, decoración mexicana, artesanías de Michoacán, catrinas en Tonalá, catrinas en Guadalajara, catrín de barro, calaveras de barro, regalos artesanales, clay catrinas, mexican folk art">
+    <title translate="no">La Calavera de Zapata - Catrinas de Barro Artesanales</title>
+
+    <link rel="icon" href="fotos/calavera_logo_ico.ico" type="image/ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        media="print" onload="this.media='all'">
+
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap">
+    </noscript>
+
     <link href="estilos_calavera.css" rel="stylesheet">
-    <link href="funcionalidades.js" rel="stylesheet">
-
-
 </head>
+
 <body>
-    <!-- PÉTALOS DE CEMPASÚCHIL -->
-    <div class="petalos-container">
-        <div class="petalo pequeno color1 petalo-1"></div>
-        <div class="petalo mediano color2 petalo-2"></div>
-        <div class="petalo pequeno color3 petalo-3"></div>
-        <div class="petalo mediano color4 petalo-4"></div>
-        <div class="petalo pequeno color1 petalo-5"></div>
-        <div class="petalo mediano color2 petalo-6"></div>
-        <div class="petalo pequeno color3 petalo-7"></div>
-        <div class="petalo mediano color4 petalo-8"></div>
-        <div class="petalo pequeno color1 petalo-9"></div>
-        <div class="petalo mediano color2 petalo-10"></div>
-        <div class="petalo pequeno color3 petalo-11"></div>
-        <div class="petalo mediano color4 petalo-12"></div>
-        <div class="petalo pequeno color1 petalo-13"></div>
-        <div class="petalo mediano color2 petalo-14"></div>
-        <div class="petalo pequeno color3 petalo-15"></div>
-        <div class="petalo mediano color4 petalo-16"></div>
-        <div class="petalo pequeno color1 petalo-17"></div>
-        <div class="petalo mediano color1 esquina petalo-37"></div>
-        <div class="petalo pequeno color2 petalo-38"></div>
-        <div class="petalo grande color3 esquina petalo-39"></div>
-        <div class="petalo pequeno color4 petalo-40"></div>
-        <div class="petalo mediano color1 petalo-41"></div>
-        <div class="petalo grande color2 esquina petalo-42"></div>
-        <div class="petalo pequeno color3 petalo-43"></div>
-        <div class="petalo mediano color4 esquina petalo-44"></div>
-    </div>
 
-    <!-- Header -->
     <header>
-        <div class="logo">
-                <img src="fotos/calavera_logo_oficial.png" height="70px" width="70px" alt="logo" class="logotipo-oficial">
+        <div class="petal-container" id="banner"></div>
 
+        <div class="logo">
+            <img src="fotos/calavera_logo_oficial-inv.webp" height="70" width="70"
+                alt="Logo oficial de La Calavera de Zapata - Catrinas artesanales de barro" class="logotipo-oficial">
         </div>
         <nav>
             <ul id="menu">
@@ -55,312 +50,375 @@
                 <li><a href="#redes">REDES</a></li>
             </ul>
         </nav>
-        <button class="menu-toggle" aria-label="Menú" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-    </header>
-
-    <!-- Inicio -->
-    <section id="inicio">
-        <div class="hero-content">
-            <h1 class="titulo-principal">La Calavera de Zapata</h1>
-            <h2 class="subtitulo-principal">Catrinas de barro con alma michoacana, pintadas con corazón jalisciense</h2>
-            <p class="descripcion-principal">La muerte ronda por Capula y a su paso llena de vida, color y fiesta. Es en este mágico pueblo donde el Día de Muertos no solo es una tradición, sino el corazón de una comunidad que vive y respira arte.<br>
-                                            En La Calavera de Zapata sabemos que lo que se hace en México, está bien hecho. Nacimos del amor por el arte mexicano, por la transición de la vida a la muerte y por el deseo de que nuestras tradiciones prevalezcan. A través de nuestras catrinas, transmitimos color, alegría y un profundo respeto por nuestra cultura.</p>
-            <a href="#galeria" class="btn-primary">Ver Nuestra Colección de Catrinas</a>
-        </div>
-        <div class="hero-image">
-            <img src="fotos/IMG_20230509_151420_307~2.jpg" alt="Catrina artesanal de barro pintada a mano"></div>
-    </section>
-
-
-    <!-- Nosotros -->
-<section id="nosotros">
-    <h2 class="section-title titulo-seccion">Nuestra Historia</h2>
-    <div class="nosotros-content">
-        <div class="nosotros-text">
-            <h3 class="subtitulo-seccion">Tradición y Arte Mexicano</h3>
-            <p>La Calavera de Zapata nace en Capula, Michoacán, un pueblo reconocido mundialmente por su tradición alfarera y por ser la cuna de las emblemáticas catrinas de barro. Es aquí, entre hornos de leña y manos llenas de historia, donde cada pieza cobra vida.
-                Nuestra marca surge por el gusto y la afición a la transición entre la vida y la muerte, y por el amor al arte popular mexicano.</p>
-            <p>Cada artesanía que llevamos a tus manos es elaborada con procesos tradicionales, con una historia, una intención y el afecto de quienes la crean. En cada catrina hay un pedazo de Capula, de su gente y de una tradición que se niega a desaparecer.</p>
-            
-            <!-- Contador de imágenes -->
-            <div class="contador-galeria">
-                <span id="contadorActual">1</span> / <span id="contadorTotal">6</span>
-            </div>
-        </div>
         
-        <!-- NUEVA GALERÍA DE CARRUSEL AUTOMÁTICO/MANUAL -->
-        <div class="historia-gallery">
-            <div class="gallery-container">
-                <!-- Carrusel principal -->
-                <div class="gallery-carousel">
-                    <div id="historiaSlides" class="gallery-slides"></div>
-                    
-                    <!-- Indicadores -->
-                    <div class="gallery-indicators" id="historiaIndicators"></div>
-                </div>
-                
-                <!-- Descripción de la imagen actual -->
-                <div class="gallery-caption" id="historiaCaption">
-                    <p>Artisanos de Capula trabajando el barro con técnicas ancestrales</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Valores (se mantiene igual) -->
-    <div class="valores">
-        <div class="valor-card">
-            <div class="icon"></div>
-            <h4>Misión</h4>
-            <p>Transmitir a través de nuestras artesanías el amor por nuestras tradiciones, ofreciendo piezas que llenen cada espacio de color, vida y alegría.</p>
-        </div>
-        <div class="valor-card">
-            <div class="icon"></div>
-            <h4>Visión</h4>
-            <p>Ser una marca reconocida a nivel nacional e internacional por preservar y difundir la tradición de la catrina, manteniendo viva la esencia de Capula y llevando a cada hogar una pieza única.</p>
-        </div>
-        <div class="valor-card">
-            <div class="icon"></div>
-            <h4>Valores</h4>
-            <p>*Calidad</p>
-            <p>*Identidad mexicana</p>
-            <p>*Arte y cultura</p>
-            <p>*Compromiso</p>
+        <div class="gtranslate_wrapper"></div>
 
+        <div class="custom-currency-selector">
+            <div class="currency-selected" onclick="toggleCurrencyMenu()">
+                <img src="https://flagcdn.com/w20/mx.webp" alt="MXN" id="current-currency-flag">
+                <span id="current-currency-text">MXN</span>
+                <span class="arrow">▼</span>
+            </div>
+            <ul class="currency-options" id="currency-menu">
+                <li onclick="selectCurrency('MXN', 'mx')"><img src="https://flagcdn.com/w20/mx.webp"> MXN</li>
+                <li onclick="selectCurrency('USD', 'us')"><img src="https://flagcdn.com/w20/us.webp"> USD</li>
+                <li onclick="selectCurrency('EUR', 'eu')"><img src="https://flagcdn.com/w20/eu.webp"> EUR</li>
+                <li onclick="selectCurrency('CAD', 'ca')"><img src="https://flagcdn.com/w20/ca.webp"> CAD</li>
+            </ul>
         </div>
-    </div>
-</section>
 
-    <!-- Exposiciones -->
-    <section id="expos">
-        <h2 class="section-title">Exposiciones y Eventos</h2>
-        <div class="expo-grid">
-            <div class="expo-card">
-                <div class="expo-image">
-                    <img src="fotos/enart-1.png" alt="enart" class="enart-logo">
-                </div>
-                <div class="expo-content">
-                    <h3>Enart centro cultural del refugio</h3>
-                    <p class="fecha">Próximamente</p>
-                    <p>Estaremos presentes en la feria especializada en artesanía mexicana, decoración y regalos más importante de México y América Latina.</p>
-                </div>
-            </div>
-            <div class="expo-card">
-                <div class="expo-image">
-                    <img src="fotos/expotlaqueparte-gdlj.jpg" alt="tlaqueparte" class="tlaqueparte-logo">
-                </div>
-                <div class="expo-content">
-                    <h3>Expo tlaqueparte</h3>
-                    <p class="fecha">4-7 Junio 2026</p>
-                    <p>Participación en la Expo Tlaqueparte, la cual es considerada una de las más grandes e importantes de México, debido a que asisten expositores de diferentes partes del mundo.</p>
-                </div>
-            </div>
-            <div class="expo-card">
-                <div class="expo-image">
-                    <img src="fotos/tequila.png" alt="tequila" class="tequila-logo">
-                </div>
-                <div class="expo-content">
-                    <h3>Expo tequila</h3>
-                    <p class="fecha">Proximamente</p>
-                    <p>Regresamos una vez más a este evento anual enfocado en la promoción de la cultura tequilera y destilados de agave.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    </header>
+    <main>
+        
+        <section id="inicio">
+            <div class="hero-content">
+                <h1 class="titulo-principal notranslate">La Calavera de Zapata</h1>
+                <h2 class="subtitulo-principal">Catrinas de barro con alma michoacana, pintadas con corazón jalisciense
+                </h2>
+                <p class="descripcion-principal">La muerte ronda por <span class="notranslate"> Capula </span> y a su
+                    paso
+                    llena de vida, color y fiesta. Es en este mágico pueblo donde el Día de Muertos no solo es una
+                    tradición, sino el corazón de una comunidad que vive y respira arte.</p>
 
-    <!-- Galería -->
-    <section id="galeria">
-        <h2 class="section-title">Galería de Catrinas</h2>
+                <p class="descripcion-principal">En <span class="notranslate"> La Calavera de Zapata </span> sabemos que
+                    lo
+                    que se hace en México, está bien hecho. Nacimos del amor por el arte mexicano, por la transición de
+                    la
+                    vida a la muerte y por el deseo de que nuestras tradiciones prevalezcan. A través de nuestras <span
+                        class="notranslate"> catrinas </span>, transmitimos color, alegría y un profundo respeto por
+                    nuestra
+                    cultura.</p> <a href="#galeria" class="btn-primary">Ver Nuestra Colección de Catrinas</a>
+            </div>
+            <div class="hero-image">
+                <img src="fotos/catrina_principal.webp"
+                    alt="Catrina artesanal de barro de Capula pintada a mano - La Calavera de Zapata"
+                    fetchpriority="high">
+            </div>
+        </section>
+
+
+        <section id="nosotros">
+            <h2 class="section-title titulo-seccion">Nuestra Historia</h2>
+            <div class="nosotros-content">
+                <div class="nosotros-text">
+                    <h3 class="subtitulo-seccion">Tradición y Arte Mexicano</h3>
+                    <p><span class="notranslate"> La Calavera de Zapata </span> nace en Capula, Michoacán, un pueblo
+                        reconocido mundialmente por su tradición
+                        alfarera y por ser la cuna de las emblemáticas catrinas de barro. Es aquí, entre hornos de leña
+                        y
+                        manos llenas de historia, donde cada pieza cobra vida.
+                        Nuestra marca surge por el gusto y la afición a la transición entre la vida y la muerte, y por
+                        el
+                        amor al arte popular mexicano. Lo que comenzó como una visión en noviembre de 2022, pronto tomó 
+                        forma y para el 2023 se consolidó como una marca registrada, un paso que nos permitió compartir 
+                        oficialmente nuestra pasión con el mundo. Ese mismo año, tuvimos el honor de ser parte de 
+                        nuestra primera exposición, un hito que marcó el inicio de un camino lleno de color y 
+                        tradición.</p>
+                    <p>Cada artesanía que llevamos a tus manos es elaborada con procesos tradicionales, con una
+                        historia,
+                        una intención y el afecto de quienes la crean. En cada catrina hay un pedazo de Capula, de su
+                        gente
+                        y de una tradición que se niega a desaparecer.</p>
+
+                    <div class="contador-galeria">
+                        <span id="contadorActual">1</span> / <span id="contadorTotal">6</span>
+                    </div>
+                </div>
+
+                <div class="historia-gallery">
+                    <div class="gallery-container">
+                        
+                        <div class="gallery-carousel">
+                            <div id="historiaSlides" class="gallery-slides"></div>
+
+                            <div class="gallery-indicators" id="historiaIndicators"></div>
+                        </div>
+
+                        <div class="gallery-caption" id="historiaCaption">
+                            <p>Artisanos de Capula trabajando el barro con técnicas ancestrales</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="valores">
+                <div class="valor-card">
+                    <div class="icon"></div>
+                    <h4>Misión</h4>
+                    <p>Transmitir a través de nuestras artesanías el amor por nuestras tradiciones, ofreciendo piezas
+                        que
+                        llenen cada espacio de color, vida y alegría.</p>
+                </div>
+                <div class="valor-card">
+                    <div class="icon"></div>
+                    <h4>Visión</h4>
+                    <p>Ser una marca reconocida a nivel nacional e internacional por preservar y difundir la tradición
+                        de la
+                        catrina, manteniendo viva la esencia de Capula y llevando a cada hogar una pieza única.</p>
+                </div>
+                <div class="valor-card">
+                    <div class="icon"></div>
+                    <h4>Valores</h4>
+                    <p>*Calidad</p>
+                    <p>*Identidad mexicana</p>
+                    <p>*Arte y cultura</p>
+                    <p>*Compromiso</p>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="expos">
+            <h2 class="section-title">Exposiciones y Eventos</h2>
+            <div class="expo-grid">
+                <div class="expo-card">
+                    <div class="expo-image">
+                        <img src="fotos/enart-1.webp" loading="lazy" alt="enart" class="enart-logo">
+                    </div>
+                    <div class="expo-content">
+                        <h3 class="titulo-principal notranslate">Enart centro cultural del refugio</h3>
+                        <p class="fecha">Próximamente</p>
+                        <p>Estaremos presentes en la feria especializada en artesanía mexicana, decoración y regalos más
+                            importante de México y América Latina.</p>
+                    </div>
+                </div>
+                <div class="expo-card">
+                    <div class="expo-image">
+                        <img src="fotos/expotlaqueparte.webp" loading="lazy" alt="tlaqueparte" class="tlaqueparte-logo">
+                    </div>
+                    <div class="expo-content">
+                        <h3>Expo tlaqueparte</h3>
+                        <p class="fecha">4-7 Junio 2026</p>
+                        <p>Participación en la Expo Tlaqueparte, la cual es considerada una de las más grandes e
+                            importantes
+                            de México, debido a que asisten expositores de diferentes partes del mundo.</p>
+                    </div>
+                </div>
+                <div class="expo-card">
+                    <div class="expo-image">
+                        <img src="fotos/tequila.webp" loading="lazy" alt="tequila" class="tequila-logo">
+                    </div>
+                    <div class="expo-content">
+                        <h3>Expo tequila</h3>
+                        <p class="fecha">Proximamente</p>
+                        <p>Regresamos una vez más a este evento anual enfocado en la promoción de la cultura tequilera y
+                            destilados de agave.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <div class="galeria-grid">
 
-            <!-- Catrina Criolla -->
             <div class="galeria-item" data-category="criolla" onclick="openModal('criolla')">
-                <img src="fotos/rebozo y platon_definitivo.jpg" alt="Catrina criolla" class="portada-catrina_criolla">
+                <img src="fotos/rebozo_y_platon_definitivo.webp"
+                    alt="Catrina criolla de barro artesanal con rebozo, tradición de Capula"
+                    class="portada-catrina_criolla">
                 <div class="item-title">Catrina Criolla</div>
             </div>
 
-            <!-- Catrina Floral -->
             <div class="galeria-item" data-category="floral" onclick="openModal('floral')">
-                <img src="fotos/catrina_floral_portada.jpg" alt="Catrina Floral" class="portada-catrina_floral">
+                <img src="fotos/catrina_floral_portada.webp"
+                    alt="Catrina floral de barro pintada a mano con diseño de flores mexicanas"
+                    class="portada-catrina_floral">
                 <div class="item-title">Catrina Floral</div>
             </div>
 
-            <!-- Catrina clasica -->
             <div class="galeria-item" data-category="clasica" onclick="openModal('clasica')">
-                <img src="fotos/catrina_clasica.jpg" alt="Catrina clasica" class="portada-catrina_clasica">
-                <div class="item-title">Catrina Clasica</div>
+                <img src="fotos/catrina_clasica.webp"
+                    alt="Elegante Catrina clásica de barro con sombrero, artesanía de Michoacán"
+                    class="portada-catrina_clasica">
+                <div class="item-title">Catrina Clásica</div>
             </div>
 
-            <!-- Barro natural -->
             <div class="galeria-item" data-category="tradicional" onclick="openModal('tradicional')">
-                <img src="fotos/corona_rosas_portada.jpg" alt="Catrina barro natural" class="portada-catrina_barro">
+                <img src="fotos/corona_rosas_portada.webp"
+                    alt="Catrina de barro natural sin pintar, estilo rústico mexicano" class="portada-catrina_barro">
                 <div class="item-title">Barro Natural</div>
             </div>
 
-            <!-- Masccotas -->
             <div class="galeria-item" data-category="mascotas" onclick="openModal('mascotas')">
-                <img src="fotos/burrito_portada.jpg" alt="Catrina mascotas" class="portada-catrina_criolla">
+                <img src="fotos/burrito_portada.webp"
+                    alt="Figura de mascota estilo catrina de barro, artesanía mexicana" class="portada-catrina_criolla">
                 <div class="item-title">Mascotas</div>
             </div>
 
-            <!-- Catrina Personalizada -->
             <div class="galeria-item" data-category="personalizada" onclick="openModal('personalizada')">
-                <img src="fotos/doctora_portada.jpg" alt="Catrina personalizada" class="portada-catrina_criolla">
+                <img src="fotos/doctora_portada.webp"
+                    alt="Catrina de barro personalizada con profesión de doctora, pintada a mano"
+                    class="portada-catrina_criolla">
                 <div class="item-title">Catrina Personalizada</div>
             </div>
-        
-            <!-- Parejas -->
+
             <div class="galeria-item" data-category="parejas" onclick="openModal('parejas')">
-                <img src="fotos/galleros pareja_portada.jpg" alt="Parejas" class="portada-catrina_criolla">
+                <img src="fotos/galleros_pareja_portada.webp"
+                    alt="Pareja de catrines galleros de barro, arte popular de Capula" class="portada-catrina_criolla">
                 <div class="item-title">Parejas</div>
             </div>
 
-            <!-- Catrín -->
             <div class="galeria-item" data-category="moderna" onclick="openModal('moderna')">
-                <img src="fotos/catrin_portada.jpg" alt="Catrina Clásica" class="portada-catrina_criolla">
+                <img src="fotos/catrin_portada.webp"
+                    alt="Catrín tradicional de barro con traje, pareja de la catrina mexicana"
+                    class="portada-catrina_criolla">
                 <div class="item-title">Catrín</div>
             </div>
         </div>
-    </section>
 
-    <!-- Modal del carrusel -->
-    <div class="modal-overlay" id="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2 class="modal-title" id="modalTitle">Catrina Clásica</h2>
-                <button class="close-modal" onclick="closeModal()">&times;</button>
-            </div>
-            <div class="modal-body">
-                <div class="carousel-container">
-                    <div id="carouselSlides"></div>
-                    <div class="carousel-nav">
-                        <button class="carousel-btn prev-btn" onclick="prevSlide()">❮</button>
-                        <button class="carousel-btn next-btn" onclick="nextSlide()">❯</button>
-                    </div>
-                    <div class="carousel-dots" id="carouselDots"></div>
+        <div class="modal-overlay" id="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="modalTitle">Catrina Clásica</h2>
+                    <button class="close-modal" onclick="closeModal()">×</button>
                 </div>
-                <div class="piece-info">
-                    <h3 id="pieceTitle">Catrina Clásica</h3>
-                    <div class="piece-description" id="pieceDescription"></div>
-                    <div class="piece-details">
-                        <div class="detail-item">
-                            <span class="detail-label">Material:</span>
-                            <span class="detail-value" id="pieceMaterial"></span>
+                <div class="modal-body">
+                    <div class="carousel-container">
+                        <div id="carouselSlides"></div>
+                        <div class="carousel-nav">
+                            <button class="carousel-btn prev-btn" onclick="prevSlide()">❮</button>
+                            <button class="carousel-btn next-btn" onclick="nextSlide()">❯</button>
                         </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Altura:</span>
-                            <span class="detail-value" id="pieceHeight"></span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Técnica:</span>
-                            <span class="detail-value" id="pieceTechnique"></span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Origen:</span>
-                            <span class="detail-value" id="pieceOrigin"></span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Disponibilidad:</span>
-                            <span class="detail-value">
-                                <span id="pieceAvailability" class="available">Disponible</span>
-                            </span>
-                        </div>
+                        <div class="carousel-dots" id="carouselDots"></div>
                     </div>
-                    <div class="price" id="piecePrice"></div>
+                    <div class="piece-info">
+                        <h3 id="pieceTitle">Catrina Clásica</h3>
+                        <div class="piece-description" id="pieceDescription"></div>
+                        <div class="piece-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Material:</span>
+                                <span class="detail-value" id="pieceMaterial"></span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Altura:</span>
+                                <span class="detail-value" id="pieceHeight"></span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Técnica:</span>
+                                <span class="detail-value" id="pieceTechnique"></span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Origen:</span>
+                                <span class="detail-value" id="pieceOrigin"></span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Disponibilidad:</span>
+                                <span class="detail-value">
+                                    <span id="pieceAvailability" class="available">Disponible</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="price" id="piecePrice"></div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Contacto -->
-    <section id="contacto">
-        <h2 class="section-title">Contáctanos</h2>
-        <div class="contacto-container">
-            <div class="info-contacto">
-                <h3>Información de Contacto</h3>
-                <div class="info-item">
-                    <div class="icon">📧</div>
-                    <div>
-                        <strong>Email:</strong><br>
-                        lacalaveradezapata@hotmail.com
-                        <a href="https://www.instagram.com/la.calavera.de.zapata?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"></a>
-                    </div>
-                </div>
-                <div class="info-item">
-                    <div class="icon">📱</div>
-                    <div>
-                        <strong>Teléfono:</strong><br>
-                        +52 33 1366 8175
-                    </div>
-                </div>
-                <div class="info-item">
-                    <div class="icon">📍</div>
-                    <div>
-                        <strong>Ubicación:</strong><br>
-                        Guadalajara, Jalisco, México
-                    </div>
-                </div>
-                <div class="info-item">
-                    <div class="icon">🕐</div>
-                    <div>
-                        <strong>Horario:</strong><br>
-                        Lunes a Viernes: 9:00 - 18:00<br>
-                        Sábados: 10:00 - 14:00
-                    </div>
-                </div>
-        </div>
-    </section>
+        <section id="contacto">
+            <h2 class="section-title">Contáctanos</h2>
+            <div class="contacto-container">
 
-    <!-- Redes Sociales -->
-    <section id="redes">
-        <h2 class="section-title">Síguenos en Redes Sociales</h2>
-        <div class="redes-container">
-            <div class="red-social">
-                <a href="https://www.instagram.com/la.calavera.de.zapata?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                    <div class="red-icon">
-                        <img src="instagram.png" 
-                        style="width: 150px; height: 150px;"
-                        alt="ig_logo">
-                    </div>
-                    <h3>Instagram</h3>
-                    <p>@la.calavera.de.zapata</p>
-                </a>
-            </div>
-            <div class="red-social">
-                <a href="https://www.facebook.com/p/La-Calavera-de-Zapata-100083225592206/?locale=es_LA" target="_blank">
-                    <div class="red-icon">
-                        <img src="facebook.png" 
-                        style="width: 130px; height: 130px;"
-                        alt="fb_logo">
-                    </div>
-                    <h3>Facebook</h3>
-                    <p>/La Calavera de Zapata</p>
-                </a>
-            </div>
-            <div class="red-social">
-                <a href="https://www.tiktok.com/@la.calavera.de.za?is_from_webapp=1&sender_device=pc" target="_blank">
-                    <div class="red-icon">
-                        <img src="tik-tok.png" 
-                        style="width: 130px; height: 130px;"
-                        alt="tt_logo">
-                    </div>
-                    <h3>TikTok</h3>
-                    <p>@la.calavera.de.z</p>
-                </a>
-            </div>
-        </div>
-    </section>
+                <div class="info-contacto">
+                    <h3>Información de Contacto</h3>
 
-    <!-- Footer -->
+                    <div class="contacto_grid_wrapper">
+
+                        <div class="contacto_foto_wrapper">
+                            <img src="fotos/marcela_contacto.webp"
+                                alt="Artesana fundadora de La Calavera de Zapata en su taller de Capula"
+                                class="contacto_foto">
+                        </div>
+
+                        <div class="contacto_texto_wrapper">
+                            <div class="info-item">
+                                <div class="icon"><img src="fotos/e-mail.webp" alt="Email"></div>
+                                <div>
+                                    <strong>Correo electrónico:</strong><br>
+                                    <a href="mailto:lacalaveradezapata@hotmail.com">lacalaveradezapata@hotmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="icon"><img src="fotos/whatsapp.webp" alt="WhatsApp"></div>
+                                <div>
+                                    <strong>Telefono / WhatsApp:</strong><br>
+                                    <a href="https://wa.me/523313668175">523313668175</a>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="icon"><img src="fotos/ubicacion.webp" alt="Ubicación"></div>
+                                <div>
+                                    <strong>Ubicación:</strong><br>
+                                    <span>Capula, Michoacán, México</span>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="icon"><img src="fotos/reloj.webp" alt="Horario"></div>
+                                <div>
+                                    <strong>Horario:</strong><br>
+                                    <span>Lunes a Viernes: 9:00 - 18:00<br>Sábados: 10:00 - 14:00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="mapa-capula">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15027.747261908838!2d-101.39703108861003!3d19.672700861856363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842da11faa505c7f%3A0x33896097d41f70f4!2s58331%20Capula%2C%20Mich.!5e0!3m2!1ses!2smx!4v1772342526025!5m2!1ses!2smx"
+                        title="Mapa de ubicación de La Calavera de Zapata en Tonalá" width="600" height="450"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="redes">
+            <h2 class="section-title">Síguenos en Redes Sociales</h2>
+            <div class="redes-container">
+                <div class="red-social">
+                    <a href="https://www.instagram.com/la.calavera.de.zapata?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                        target="_blank">
+                        <div class="red-icon">
+                            <img src="fotos/instagram.webp" style="width: 150px; height: 150px;" alt="ig_logo">
+                        </div>
+                        <h3>Instagram</h3>
+                        <p>@la.calavera.de.zapata</p>
+                    </a>
+                </div>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/p/La-Calavera-de-Zapata-100083225592206/?locale=es_LA"
+                        target="_blank">
+                        <div class="red-icon">
+                            <img src="fotos/facebook.webp" style="width: 130px; height: 130px;" alt="fb_logo">
+                        </div>
+                        <h3>Facebook</h3>
+                        <p>/<span class="notranslate">La Calavera de Zapata </span></p>
+                    </a>
+                </div>
+                <div class="red-social">
+                    <a href="https://www.tiktok.com/@la.calavera.de.za?is_from_webapp=1&sender_device=pc"
+                        target="_blank">
+                        <div class="red-icon">
+                            <img src="fotos/tik-tok.webp" style="width: 130px; height: 130px;" alt="tt_logo">
+                        </div>
+                        <h3>TikTok</h3>
+                        <p>@la.calavera.de.z</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
     <footer>
         <div class="footer-content">
             <div class="footer-section">
                 <div class="logo">
-                    <img src="fotos/calavera_logo_oficial.png" height="70px" width="70px" alt="logo" class="logotipo-oficial">
+                    <img src="fotos/calavera_logo_oficial-inv.webp" height="70" width="70"
+                        alt="Logo oficial de La Calavera de Zapata - Catrinas de barro artesanales"
+                        class="logotipo-oficial">
                 </div>
                 <p style="margin-top: 1rem;">Catrinas artesanales de México</p>
             </div>
@@ -378,17 +436,32 @@
             <div class="footer-section">
                 <h4>Contacto</h4>
                 <ul class="footer-menu">
+
                     <li><a href="mailto:lacalaveradezapata@hotmail.com">Email</a></li>
-                    <li><a href="tel:+523312345678">Teléfono</a></li>
+                    <li><a href="https://wa.me/523313668175">Teléfono/WhatsApp</a></li>
                     <li><a href="#contacto">Ubicación</a></li>
+                    <li><a href="#contacto">Horario</a></li>
                 </ul>
             </div>
         </div>
         <div class="copyright">
-            <p>&copy; 2024 La Calavera de Zapata. Todos los derechos reservados.</p>
+            <p>© 2026 <span class="notranslate"> La Calavera de Zapata </span> Todos los derechos reservados.
+            </p>
         </div>
     </footer>
-
     <script src="funcionalidades.js"></script>
+    <script>
+        window.gtranslateSettings = {
+            "default_language": "es",
+            "languages": ["es", "en", "fr", "de"],
+            "wrapper_selector": ".gtranslate_wrapper",
+            "alt_flags": { "en": "usa" },
+            "flag_size": 20,
+            "flag_style": "2d",
+            "horizontal_position": "inline"
+        }
+    </script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/flags.js" defer></script>
 </body>
+
 </html>
