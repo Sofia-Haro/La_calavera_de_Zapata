@@ -105,6 +105,28 @@ const catrinasData = {
                 origin: "Capula, Michoacán",
                 available: true,
                 price: 2200
+            },
+            {
+                image: "fotos/catrina_floral6.jpeg",
+                altText: "Catrina floral de barro con corona de flores y hojas",
+                description: "Colorida catrina con diadema y falda floral, con un corazon alado y detalles en dorado.",
+                material: "Barro artesanal de Capula",
+                height: "40 cm",
+                technique: "Pintura a mano con acrílicos",
+                origin: "Capula, Michoacán",
+                available: true,
+                price: 2200
+            },
+            {
+                image: "fotos/catrina_floral7.jpeg",
+                altText: "Catrina floral con jarron y cazo.",
+                description: "Alegre catrina floral de barro con corona de flores de distintos colores, mariposas, cántaro y cazo en la mano.",
+                material: "Barro artesanal de Capula",
+                height: "40 cm",
+                technique: "Pintura a mano con acrílicos",
+                origin: "Capula, Michoacán",
+                available: true,
+                price: 3000
             }
         ]
     },
@@ -492,6 +514,42 @@ const catrinasData = {
                 available: true,
                 price: 4000,
                 priceMax: 6000
+            },
+            {
+                image: "fotos/pareja5.jpeg",
+                altText: "Pareja de catrinas campesinas, alfarería artística de Michoacán",
+                description: "Pareja de catrinas campesinos cargando calabazas. En colores otoñales con delicados detalles en gris y dorado.",
+                material: "Barro artesanal de Capula",
+                height: "40 cm cada una",
+                technique: "Pintura a mano con acrílicos",
+                origin: "Capula, Michoacán",
+                available: true,
+                price: 4000,
+                priceMax: 6000
+            },
+            {
+                image: "fotos/pareja6.jpeg",
+                altText: "Pareja de catrinas hicholes, alfarería artística de Michoacán",
+                description: "Pareja de catrinas Hucholes. En su traje tipico con los colores predominantes de blanco y rojo.",
+                material: "Barro artesanal de Capula",
+                height: "40 cm cada una",
+                technique: "Pintura a mano con acrílicos",
+                origin: "Capula, Michoacán",
+                available: true,
+                price: 3000,
+                priceMax: 6000
+            },
+            {
+                image: "fotos/pareja7.jpeg",
+                altText: "Pareja de catrinas, alfarería artística de Michoacán",
+                description: "Una sola pieza de pareja de catrinas. En colores vibrantes contrastando en colores entre si.",
+                material: "Barro artesanal de Capula",
+                height: "40 la pieza",
+                technique: "Pintura a mano con acrílicos",
+                origin: "Capula, Michoacán",
+                available: true,
+                price: 3000,
+                priceMax: 5000
             }
         ]
     },
