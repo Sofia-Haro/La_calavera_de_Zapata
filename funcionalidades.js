@@ -11,7 +11,7 @@ const catrinasData = {
                 technique: "Pintura a mano con acrílicos",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 2000
+                price: 1600
             },
             {
                 image: "fotos/catrina_criolla2.webp",
@@ -44,7 +44,7 @@ const catrinasData = {
                 technique: "Pintura detallada a mano",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 1800
+                price: 1600
             }
         ]
     },
@@ -104,7 +104,7 @@ const catrinasData = {
                 technique: "Pintura artística detallada",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 2200
+                price: 1800
             },
             {
                 image: "fotos/catrina_floral6.jpeg",
@@ -115,7 +115,7 @@ const catrinasData = {
                 technique: "Pintura a mano con acrílicos",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 2200
+                price: 1800
             },
             {
                 image: "fotos/catrina_floral7.jpeg",
@@ -126,7 +126,7 @@ const catrinasData = {
                 technique: "Pintura a mano con acrílicos",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 3000
+                price: 2400
             }
         ]
     },
@@ -142,7 +142,7 @@ const catrinasData = {
                 technique: "Pintura a mano con acrílicos",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 1800
+                price: 1200
             },
             {
                 image: "fotos/clasica2.webp",
@@ -153,7 +153,7 @@ const catrinasData = {
                 technique: "Pintura a mano con acrílicos",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 1800
+                price: 1200
             },
             {
                 image: "fotos/clasica3.webp",
@@ -164,7 +164,7 @@ const catrinasData = {
                 technique: "Pintura a mano con acrílicos",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 1800
+                price: 1600
             },
             {
                 image: "fotos/clasica4.webp",
@@ -215,7 +215,7 @@ const catrinasData = {
                 technique: "Modelado tradicional",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 1490
+                price: 850
             },
             {
                 image: "fotos/AZTECA_NATURAL.webp",
@@ -238,7 +238,7 @@ const catrinasData = {
                 technique: "Modelado tradicional",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 2490
+                price: 900
             },
             {
                 image: "fotos/natural6.jpeg",
@@ -249,7 +249,7 @@ const catrinasData = {
                 technique: "Modelado tradicional",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 1490            
+                price: 800            
             },
             {
                 image: "fotos/natural7.jpeg",
@@ -271,29 +271,7 @@ const catrinasData = {
                 technique: "Modelado tradicional",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 1190
-            },
-            {
-                image: "fotos/natural9.jpeg",
-                altText: "Catrina de barro natural.",
-                description: "Catrina floral con corona chica de barro natural modelada a mano",
-                material: "Barro natural",
-                height: "30 cm",
-                technique: "Modelado tradicional",
-                origin: "Capula, Michoacán",
-                available: true,
-                price: 1190
-            },
-            {
-                image: "fotos/natural10.jpeg",
-                altText: "Catrina de barro natural. ",
-                description: "Catrina pajarera chica de barro natural modelada a mano",
-                material: "Barro  natural",
-                height: "30 cm",
-                technique: "Modelado tradicional",
-                origin: "Capula, Michoacán",
-                available: true,
-                price: 1190
+                price: 900
             },
             {
                 image: "fotos/natural11.jpeg",
@@ -304,7 +282,7 @@ const catrinasData = {
                 technique: "Modelado tradicional",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 1240
+                price: 1100
             },
             {
                 image: "fotos/natural12.jpeg",
@@ -315,7 +293,7 @@ const catrinasData = {
                 technique: "Modelado tradicional",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 1390
+                price: 1100
             },
             {
                 image: "fotos/narural13.jpeg",
@@ -326,7 +304,7 @@ const catrinasData = {
                 technique: "Modelado tradicional",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 1490
+                price: 900
             },
             {
                 image: "fotos/natural14.jpeg",
@@ -337,7 +315,7 @@ const catrinasData = {
                 technique: "Modelado tradicional",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 1390
+                price: 900
             },
             {
                 image: "fotos/natural15.jpeg",
@@ -348,7 +326,7 @@ const catrinasData = {
                 technique: "Modelado tradicional",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 1490
+                price: 1200
             },
             {
                 image: "fotos/natural16.jpeg",
@@ -359,7 +337,7 @@ const catrinasData = {
                 technique: "Modelado tradicional",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 1490,
+                price: 1200,
             },
             {
                 image: "fotos/natural17.jpeg",
@@ -370,7 +348,7 @@ const catrinasData = {
                 technique: "Modelado tradicional",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 1490,
+                price: 1200,
             }
         ]
     },
@@ -386,7 +364,7 @@ const catrinasData = {
                 technique: "Pintura a mano",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 1200
+                price: 900
             },
             {
                 image: "fotos/mascota2.webp",
@@ -397,7 +375,7 @@ const catrinasData = {
                 technique: "Pintura detallada",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 1200
+                price: 900
             },
             {
                 image: "fotos/mascota3.webp",
@@ -408,7 +386,7 @@ const catrinasData = {
                 technique: "Pintura colorida",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 1000
+                price: 900
             }
         ]
     },
@@ -473,59 +451,55 @@ const catrinasData = {
                 altText: "Pareja de catrina y catrín Zapata de barro grandes, artesanía fina de Michoacán",
                 description: "Pareja de Zapatas. Catrina y catrín en vestimenta clásica mexicana, vestidos con sombrero y escopeta.",
                 material: "Barro artesanal de Capula",
-                height: "60 cm cada una",
+                height: "40 cm cada una",
                 technique: "Pintura a mano con acrílicos",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 12000
+                price: 5000
             },
             {
                 image: "fotos/pareja2.webp",
                 altText: "Pareja de catrines galleros de barro pintados a mano, figuras tradicionales de Capula",
                 description: "Pareja de galleros. De vestimenta colorida, con gallos en mano que mantiene la esencia tradicional mexicana.",
                 material: "Barro artesanal de Capula",
-                height: "38 cm - 50 cm cada una",
+                height: "40 cm cada una",
                 technique: "Pintura a mano con acrílicos",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 6000,
-                priceMax: 10000
+                price: 3200
             },
             {
                 image: "fotos/pareja3.webp",
                 altText: "Pareja de catrinas clásicas de barro con flores, decoración mexicana de Día de Muertos",
                 description: "Pareja de catrinas clásicas, Ambas decoradas con flores de de colores en tonos complementarios.",
                 material: "Barro artesanal de Capula",
-                height: "36 cm cada una",
+                height: "30 cm cada una",
                 technique: "Pintura a mano con acrílicos",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 4000,
-                priceMax: 6000
+                price: 2300
             },
             {
                 image: "fotos/pareja4.webp",
                 altText: "Pareja de catrinas criollas de barro en colores vibrantes, alfarería artística de Michoacán",
                 description: "Pareja de catrinas criollas. En colores vibrantes con detalles en dorado.",
                 material: "Barro artesanal de Capula",
-                height: "36 cm cada una",
+                height: "30 cm cada una",
                 technique: "Pintura a mano con acrílicos",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 4000,
-                priceMax: 6000
+                price: 2300
             },
             {
                 image: "fotos/pareja5.jpeg",
                 altText: "Pareja de catrinas campesinas, alfarería artística de Michoacán",
                 description: "Pareja de catrinas campesinos cargando calabazas. En colores otoñales con delicados detalles en gris y dorado.",
                 material: "Barro artesanal de Capula",
-                height: "40 cm cada una",
+                height: "45 cm cada una",
                 technique: "Pintura a mano con acrílicos",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 4000,
-                priceMax: 6000
+                price: 3500
             },
             {
                 image: "fotos/pareja6.jpeg",
@@ -536,8 +510,7 @@ const catrinasData = {
                 technique: "Pintura a mano con acrílicos",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 3000,
-                priceMax: 6000
+                price: 2400
             },
             {
                 image: "fotos/pareja7.jpeg",
@@ -548,8 +521,7 @@ const catrinasData = {
                 technique: "Pintura a mano con acrílicos",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 3000,
-                priceMax: 5000
+                price: 3000
             }
         ]
     },
@@ -565,7 +537,7 @@ const catrinasData = {
                 technique: "Pintura a mano con acrílicos",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 1000
+                price: 1200
             },
             {
                 image: "fotos/catrin2.webp",
@@ -576,7 +548,7 @@ const catrinasData = {
                 technique: "Pintura a mano con acrílicos",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 1200
+                price: 800
             },
             {
                 image: "fotos/catrin3.webp",
@@ -587,18 +559,18 @@ const catrinasData = {
                 technique: "Pintura a mano con acrílicos",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 1200
+                price: 800
             },
             {
                 image: "fotos/catrin4.webp",
                 altText: "Catrín ranchero de barro con sombrero, escultura artesanal de Michoacán",
                 description: "Catrin ranchero con barbay sombrero.",
                 material: "Barro artesanal de Capula",
-                height: "42 cm",
+                height: "30 cm",
                 technique: "Pintura a mano con acrílicos",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 3400
+                price: 1200
             },
             {
                 image: "fotos/catrin6.webp",
@@ -609,7 +581,7 @@ const catrinasData = {
                 technique: "Pintura a mano con acrílicos",
                 origin: "Capula, Michoacán",
                 available: true,
-                price: 1000
+                price: 750
             }
         ]
     }
